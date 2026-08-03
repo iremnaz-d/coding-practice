@@ -1,5 +1,4 @@
 #https://www.hackerrank.com/challenges/nested-list/problem?isFullScreen=true
-
 if __name__ == '__main__':
 
     _list = []
