@@ -1,0 +1,32 @@
+#https://www.hackerrank.com/challenges/string-validators/problem?isFullScreen=true
+
+if __name__ == '__main__':
+    s = input()
+    alphanumeric = False
+    alpha = False
+    digit = False
+    lower = False
+    upper = False
+
+    for i in range(len(s)):
+        if s[i].isalnum():
+            alphanumeric = True
+
+        if s[i].isalpha():
+            alpha = True
+
+        if s[i].isdigit():
+            digit = True
+
+        if s[i].islower():
+            lower = True
+
+        if s[i].isupper():
+            upper = True
+
+    print(alphanumeric)
+    print(alpha)
+    print(digit)
+    print(lower)
+    print(upper)
+
